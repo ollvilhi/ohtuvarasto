@@ -1,3 +1,6 @@
 toka tiedosto eka kansio
 
 1) tähänkin eka muutos
+
+2) testaillaan klooneja leikkietärepoon
+

@@ -1,3 +1,0 @@
-eka tiedosto ekassa kansiossa
-
-1) Käytä jatkossa komentoa git add -p aina kun se on suinkin mahdollista!

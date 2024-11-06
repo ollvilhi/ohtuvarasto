@@ -70,5 +70,5 @@ class TestVarasto(unittest.TestCase):
 
     def test_str_testitulostus(self):
         varasto = Varasto(10.0, 3.0)
-        malli = "saldo = 3.0, vielä tilaa 7.0"
+        malli = "saldo = 3.0, vielä tilaa asd 7.0"
         self.assertAlmostEqual(str(varasto), malli)

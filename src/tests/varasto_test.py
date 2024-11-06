@@ -1,5 +1,5 @@
 """Moduuli unittestille"""
-
+# Tämä hälyttää vielä jotain...
 import unittest
 from varasto import Varasto
 

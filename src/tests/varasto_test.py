@@ -72,3 +72,5 @@ class TestVarasto(unittest.TestCase):
         varasto = Varasto(10.0, 3.0)
         malli = "saldo = 3.0, vielä tilaa 7.0"
         self.assertAlmostEqual(str(varasto), malli)
+
+# Kokeillaan tehdä muutos johonkin tiedostoon

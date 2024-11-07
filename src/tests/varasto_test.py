@@ -1,5 +1,5 @@
 """Moduuli unittestille"""
-# Tämä hälyttää vielä jotain...
+
 import unittest
 from varasto import Varasto
 
@@ -9,6 +9,7 @@ class TestVarasto(unittest.TestCase):
 
 
     def setUp(self):
+        """Setup"""
         self.varasto = Varasto(10)
 
     def test_konstruktori_luo_tyhjan_varaston(self):

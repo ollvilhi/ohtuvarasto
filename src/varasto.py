@@ -1,11 +1,5 @@
-"""Varasto-luokan moduuli"""
-
 class Varasto:
-    """Varasto-luokka"""
-
     def __init__(self, tilavuus, alku_saldo = 0):
-        """Alustukset"""
-
         if tilavuus > 0.0:
             self.tilavuus = tilavuus
         else:
@@ -22,16 +16,11 @@ class Varasto:
             # täyteen ja ylimäärä hukkaan!
             self.saldo = tilavuus
 
-    # huom: ominaisuus voidaan myös laskea.
-    # Ei tarvita erillistä kenttää viela_tilaa tms.
+    # huom: ominaisuus voidaan myös laskea. Ei tarvita erillistä kenttää viela_tilaa tms.
     def paljonko_mahtuu(self):
-        """Laskee paljonko mahtuu"""
-
         return self.tilavuus - self.saldo
 
     def lisaa_varastoon(self, maara):
-        """Lisää tavaraa varastoon"""
-
         if maara < 0:
             return
         if maara <= self.paljonko_mahtuu():
@@ -40,8 +29,6 @@ class Varasto:
             self.saldo = self.tilavuus
 
     def ota_varastosta(self, maara):
-        """Ottaa varastosta"""
-
         if maara < 0:
             return 0.0
         if maara > self.saldo:

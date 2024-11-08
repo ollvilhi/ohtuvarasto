@@ -16,6 +16,15 @@ class Varasto:
             # täyteen ja ylimäärä hukkaan!
             self.saldo = tilavuus
 
+    def liikaa_argumentteja(self, a, b, c, d, e, f, g, h):
+        return -1
+
+    def liikaa_sisakkaisia(self):
+        if self.saldo > 1:
+            if self.saldo < 11:
+                if self.saldo == 5:
+                    print("Moi!")
+
     # huom: ominaisuus voidaan myös laskea. Ei tarvita erillistä kenttää viela_tilaa tms.
     def paljonko_mahtuu(self):
         return self.tilavuus - self.saldo

@@ -4,7 +4,7 @@ from varasto import Varasto
 
 
 def tulosta_varastot_alkutila(mehua, olutta):
-    """Tulostaa varastojen alkutilan aasd asd asd asd asd asd asd asd asd asd asd asd"""
+    """Tulostaa varastojen alkutilan aasd"""
     print("Luonnin jälkeen:")
     print(f"Mehuvarasto: {mehua}")
     print(f"Olutvarasto: {olutta}")
